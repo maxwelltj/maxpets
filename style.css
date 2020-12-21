@@ -1,0 +1,227 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*style*/
+body {
+    font: 20px/28px "Lucida Handwriting", sans-serif;
+    background-color: #eaeaea;
+	color: #333;
+	background-image: url(buble.png);
+}
+.container {
+    width: 800px;
+	margin: auto; 
+	background-color: white;
+}
+.header {
+	padding: 20px
+}
+.header .judul {
+	font-size: 40px;
+	font-weight: bold;
+	margin-left: 220px;
+	margin-right: 20px;
+	width: 50%;
+}
+.header ul li {
+	display: inline-block;
+	margin-top: 20px;
+	margin-right: 5px;
+	margin-left: 45px;
+	font-family: "Georgia";
+}
+.header a {
+	text-decoration: none;
+	color: rgb(22, 19, 19);
+	padding: 3px;
+}
+.header a:hover {
+	background-color:lightslategray;
+	color: rgb(29, 21, 21);
+}
+.gbrpet {
+	height: 250px;
+	background-size: cover;
+	background-image: url(mypets.jpg);
+	border-top: 3px solid sienna;
+	border-bottom: 3px solid salmon;
+}
+.content {
+	padding: 10px;
+}
+.content h2 {
+	font-family: "Times New Roman";
+	font-size: 30px;
+	font-weight: bold;
+}
+.content .tentangku {
+	font-family: "Arial";
+	font-size: 15px;
+	margin-top: 2px;
+	margin-bottom: 20px;
+}
+.guguk{
+	font-family: "Times New Roman";
+	margin-top: 2px;
+	margin-bottom: 20px;
+	font-weight: bold;
+	font-size: 30px;
+}
+.anjing {
+	font-family: Arial;
+	font-size: 15px;
+	margin-top: 2px;
+	margin-bottom: 5px;
+}
+.content li {
+	font-family: Arial;
+	font-size: 15px;
+}
+.content h1 {
+	font-family: "Times New Roman";
+	margin-top: 20px;
+	margin-bottom: 15px;
+	font-weight: bold;
+	font-size: 30px;
+}
+.cupang{ 
+	font-family: Arial;
+	font-size: 15px;
+	margin-bottom: 5px;
+}
+.content li {
+	font-family: Arial;
+	font-size: 15px;
+} 
+.content h1{
+	font-family: "Times New Roman";
+	margin-bottom: 15px;
+	font-weight: bold;
+	font-size: 30px;
+}
+.hedgehog {
+	font-family: Arial;
+	font-size: 15px;
+	margin-bottom: 1px;
+}
+.gecko {
+	font-family: Arial;
+	font-size: 15px;
+	margin-bottom: 1px;
+}
+.salamanderc {
+	font-family: Arial;
+	font-size: 15px;
+	margin-bottom: 1px
+}
+.sry {
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+}
+.footer{
+	background-color:rgb(44, 43, 43);
+	padding: 10px;
+}
+.asal{
+	color:rgb(228, 220, 220);
+	font-size: 12px;
+	font-family: "Times New Roman";
+}
+.nama{
+	color:rgb(228, 220, 220);
+	font-size: 12px;
+	font-family: "Times New Roman";
+}
+.cpyright{
+	color:rgb(228, 220, 220);
+	font-size: 12px;
+	font-family: "Times New Roman";
+}
+.b{
+	float: right;
+	width:100px;
+	height:120px; 
+	margin-left: 8px;
+	margin-right:5px;
+	margin-bottom: 25px;
+}
+.c{
+	float: right;
+	width:100px;
+	height:110px; 
+	margin-left: 8px;
+	margin-right:5px;
+	margin-bottom: 25px;
+}
+.d{
+	float: right;
+	width:100px;
+	height:100px; 
+	margin-left: 8px;
+	margin-right:5px;
+	margin-bottom: 25px;
+}
+.g{
+	float: right;
+	width:100px;
+	height:95px; 
+	margin-left: 8px;
+	margin-right:5px;
+	margin-bottom: 25px;
+}
+.s{
+	float: right;
+	width:100px;
+	height:100px; 
+	margin-left: 8px;
+	margin-right:5px;
+	margin-bottom: 25px;
+}
